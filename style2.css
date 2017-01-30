@@ -1,0 +1,757 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+	width: 100%;
+	height: 110px;
+	background-color: #2c3e50  ;
+	position: fixed;
+	z-index: 6;
+	top: 0;
+}
+  
+#logo{
+ width: 130px;
+	height: 110px;
+	vertical-align: middle;
+}
+
+#navigasi {
+	color: #fff;
+	font-family: Arial;
+	word-spacing: 50px;
+	padding-left: 700px;
+}
+
+#navigasi a {
+	text-decoration: none;
+	color: #fff;
+	transition: all 1s ease;
+}
+
+#navigasi a:hover {
+	color: #f88601;
+	transition: all .3s ease;
+}
+
+a#link-active {
+	color: #f88601;
+}
+
+#slider {
+	height: 550px;
+	text-align: center;
+	background-color: #2e3436;
+	position: fixed;
+	z-index: 1;
+	top: 110px;
+	display: Block;
+	margin-top:0;
+}
+
+#gambar-slider {
+margin:0;
+display:block;
+}
+
+#isi {
+	position: relative;
+	z-index: 2;
+	margin-top: 660px;
+}
+
+/*Client*/
+#client {
+	background-color: #Orange;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#isi-client {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #fff;
+	font-family: Arial;
+}
+
+#logo-client {
+	vertical-align: middle;
+	margin-left: 25px;
+}
+
+/*Opening*/
+#opening {
+	background-color: orange;
+	width: cover;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height:920px;
+}
+
+#bungkus-opening {
+	width: 960px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#isi-opening {
+	padding-right: 400px; 
+}
+
+#subjudul-opening {
+	font-family: Lobster;
+	color: #fff;
+	font-size: 30px;
+}
+
+#judul-opening {
+	font-family: Lobster;
+	color: #fff;
+	font-size: 70px;
+	margin-top: -20px; 
+}
+
+#deskripsi-opening {
+	font-family: Arial;
+	color: #fff;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+#tombol-opening {
+	width: 150px;
+	height: 20px;
+	background-color: #fff;
+	color: #f88601;
+	font-family: Arial;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#blog {
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+#bungkus-blog {
+	width: 960px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#subjudul-blog {
+	font-family: Lobster;
+	color: #fff;
+	font-size: 30px;
+}
+
+#judul-blog {
+	font-family: 'Anton', sans-serif;
+	color: #2c3e50;
+	font-size: 80px;
+	margin-top: -20px;
+	margin-bottom: 30px;
+}
+
+#bungkus-semua-blogpost {
+	height: 230px;
+}
+
+/*Post 1*/
+#blogpost1 {
+	width: 310px;
+	height: 230px;
+	background-color: #fff;
+	float: left;
+}
+
+#gambar-blogpost1 {
+	width: 310px;
+	height: 150px;
+	background-color: black;
+}
+
+#bungkus-blogpost1 {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+#kategori-blogpost1 {
+	font-family: Arial;
+	color: #2e3436;
+	font-size: 12px;
+}
+
+#judul-blogpost1 {
+	font-family: Arial;
+	color: #2e3436;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+#ringkasan-blogpost1 {
+	font-family: Arial;
+	color: #888a85;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+#meta-blogpost1 {
+	font-family: Arial;
+	color: #888a85;
+	font-size: 12px;
+	margin-top: 20px;
+	font-weight: bold;
+	text-align: right;
+}
+
+#penulis-blogpost1 {
+	color: #f88601
+}
+
+#tanggal-blogpost1 {
+	margin-left: 10px;
+}
+
+/*Post 2*/
+#blogpost2 {
+	width: 310px;
+	height: 230px;
+	background-color: #fff;
+	float: left;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#gambar-blogpost2 {
+	width: 310px;
+	height: 150px;
+	background-color: black;
+}
+
+#bungkus-blogpost2 {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+#kategori-blogpost2 {
+	font-family: Arial;
+	color: #2e3436;
+	font-size: 12px;
+}
+
+#judul-blogpost2 {
+	font-family: Arial;
+	color: #2e3436;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+#ringkasan-blogpost2 {
+	font-family: Arial;
+	color: #888a85;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+#meta-blogpost2 {
+	font-family: Arial;
+	color: #888a85;
+	font-size: 12px;
+	margin-top: 20px;
+	font-weight: bold;
+	text-align: right;
+}
+
+#penulis-blogpost2 {
+	color: #f88601
+}
+
+#tanggal-blogpost2 {
+	margin-left: 10px;
+}
+
+/*Post 2*/
+#blogpost3 {
+	width: 310px;
+	height: 230px;
+	background-color: #fff;
+	float: left;
+}
+
+#gambar-blogpost3 {
+	width: 310px;
+	height: 150px;
+	background-color: black;
+}
+
+#bungkus-blogpost3 {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+#kategori-blogpost3 {
+	font-family: Arial;
+	color: #2e3436;
+	font-size: 12px;
+}
+
+#judul-blogpost3 {
+	font-family: Arial;
+	color: #2e3436;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+#ringkasan-blogpost3 {
+	font-family: Arial;
+	color: #888a85;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+#meta-blogpost3 {
+	font-family: Arial;
+	color: #888a85;
+	font-size: 12px;
+	margin-top: 20px;
+	font-weight: bold;
+	text-align: right;
+}
+
+#penulis-blogpost3 {
+	color: #f88601
+}
+
+#tanggal-blogpost3 {
+	margin-left: 10px;
+}
+
+#tombol-blog {
+	width: 150px;
+	height: 20px;
+	background-color: #fff;
+	color: #f88601;
+	font-family: Arial;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#blog1 {
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+#bungkus-blog1 {
+	width: 960px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#subjudul-blog1 {
+	font-family: Lobster;
+	color: #fff;
+	font-size: 30px;
+}
+
+#judul-blog1 {
+	font-family: 'Anton', sans-serif;
+	color: #2c3e50;
+	font-size: 80px;
+	margin-top: -20px;
+	margin-bottom: 30px;
+}
+
+#bungkus-semua-blogpost1 {
+	height: 230px;
+}
+
+/*Post 1*/
+#blogpost11 {
+	width: 310px;
+	height: 230px;
+	background-color: #fff;
+	float: left;
+}
+
+#gambar-blogpost11 {
+	width: 310px;
+	height: 150px;
+	background-color: black;
+}
+
+#bungkus-blogpost11 {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+#kategori-blogpost11 {
+	font-family: Arial;
+	color: #2e3436;
+	font-size: 12px;
+}
+
+#judul-blogpost11 {
+	font-family: Arial;
+	color: #2e3436;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+#ringkasan-blogpost11 {
+	font-family: Arial;
+	color: #888a85;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+#meta-blogpost11 {
+	font-family: Arial;
+	color: #888a85;
+	font-size: 12px;
+	margin-top: 20px;
+	font-weight: bold;
+	text-align: right;
+
+}
+
+/*Post 2*/
+#blogpost21 {
+	width: 310px;
+	height: 230px;
+	background-color: #fff;
+	float: left;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#gambar-blogpost21 {
+	width: 310px;
+	height: 150px;
+	background-color: black;
+}
+
+#bungkus-blogpost21 {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+#kategori-blogpost21 {
+	font-family: Arial;
+	color: #2e3436;
+	font-size: 12px;
+}
+
+#judul-blogpost21 {
+	font-family: Arial;
+	color: #2e3436;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+#ringkasan-blogpost21 {
+	font-family: Arial;
+	color: #888a85;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+#meta-blogpost21 {
+	font-family: Arial;
+	color: #888a85;
+	font-size: 12px;
+	margin-top: 20px;
+	font-weight: bold;
+	text-align: right;
+}
+
+
+
+/*Post 2*/
+#blogpost31{
+	width: 310px;
+	height: 230px;
+	background-color: #fff;
+	float: left;
+}
+
+#gambar-blogpost31 {
+	width: 310px;
+	height: 150px;
+	background-color: black;
+}
+
+#bungkus-blogpost31 {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+#kategori-blogpost31 {
+	font-family: Arial;
+	color: #2e3436;
+	font-size: 12px;
+}
+
+#judul-blogpost31 {
+	font-family: Arial;
+	color: #2e3436;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+#ringkasan-blogpost31 {
+	font-family: Arial;
+	color: #888a85;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+#meta-blogpost31 {
+	font-family: Arial;
+	color: #888a85;
+	font-size: 12px;
+	margin-top: 20px;
+	font-weight: bold;
+	text-align: right;
+}
+
+
+#blog12 {
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+#bungkus-blog12 {
+	width: 960px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#subjudul-blog12 {
+	font-family: Lobster;
+	color: #fff;
+	font-size: 30px;
+}
+
+#judul-blog12 {
+	font-family: 'Anton', sans-serif;
+	color: #2c3e50;
+	font-size: 80px;
+	margin-top: -20px;
+	margin-bottom: 30px;
+}
+
+#bungkus-semua-blogpost12 {
+	height: 230px;
+}
+
+/*Post 1*/
+#blogpost112 {
+	width: 310px;
+	height: 230px;
+	background-color: #fff;
+	float: left;
+}
+
+#gambar-blogpost112 {
+	width: 310px;
+	height: 150px;
+	background-color: black;
+}
+
+#bungkus-blogpost112 {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+#kategori-blogpost112 {
+	font-family: Arial;
+	color: #2e3436;
+	font-size: 12px;
+}
+
+#judul-blogpost112 {
+	font-family: Arial;
+	color: #2e3436;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+#ringkasan-blogpost112 {
+	font-family: Arial;
+	color: #888a85;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+#meta-blogpost112 {
+	font-family: Arial;
+	color: #888a85;
+	font-size: 12px;
+	margin-top: 20px;
+	font-weight: bold;
+	text-align: right;
+
+}
+
+/*Post 2*/
+#blogpost212 {
+	width: 310px;
+	height: 230px;
+	background-color: #fff;
+	float: left;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#gambar-blogpost212 {
+	width: 310px;
+	height: 150px;
+	background-color: black;
+}
+
+#bungkus-blogpost212 {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+#kategori-blogpost212 {
+	font-family: Arial;
+	color: #2e3436;
+	font-size: 12px;
+}
+
+#judul-blogpost212 {
+	font-family: Arial;
+	color: #2e3436;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+#ringkasan-blogpost212 {
+	font-family: Arial;
+	color: #888a85;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+#meta-blogpost212 {
+	font-family: Arial;
+	color: #888a85;
+	font-size: 12px;
+	margin-top: 20px;
+	font-weight: bold;
+	text-align: right;
+}
+
+
+
+/*Post 2*/
+#blogpost312{
+	width: 310px;
+	height: 230px;
+	background-color: #fff;
+	float: left;
+}
+
+#gambar-blogpost312 {
+	width: 310px;
+	height: 150px;
+	background-color: black;
+}
+
+#bungkus-blogpost312 {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+#kategori-blogpost312 {
+	font-family: Arial;
+	color: #2e3436;
+	font-size: 12px;
+}
+
+#judul-blogpost312 {
+	font-family: Arial;
+	color: #2e3436;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+#ringkasan-blogpost312 {
+	font-family: Arial;
+	color: #888a85;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+#meta-blogpost312 {
+	font-family: Arial;
+	color: #888a85;
+	font-size: 12px;
+	margin-top: 20px;
+	font-weight: bold;
+	text-align: right;
+}
+
+
+#tombol-blog1 {
+	width: 250px;
+	height: 20px;
+	background-color: #fff;
+	color: #f88601;
+	font-family: Arial;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	margin-top: 20px;
+	float: right;
+}
+

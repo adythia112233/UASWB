@@ -1,0 +1,431 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:grey;
+}
+
+p {
+text-align: justify
+}
+
+#header {
+	width: 100%;
+	height: 110px;
+	background-color: #2c3e50  ;
+	position: fixed;
+	z-index: 3;
+	top: 0;
+}
+  
+#logo{
+ width: 130px;
+	height: 110px;
+	vertical-align: middle;
+}
+
+#navigasi {
+	color: #fff;
+	font-family: Arial;
+	word-spacing: 50px;
+	padding-left: 700px;
+}
+
+#navigasi a {
+	text-decoration: none;
+	color: #fff;
+	transition: all 1s ease;
+}
+
+#navigasi a:hover {
+	color: #f88601;
+	transition: all .3s ease;
+}
+
+a#link-active {
+	color: #f88601;
+}
+
+#menu {
+width: 100%;
+height: 650px;
+}
+#konten{
+width:100%;
+height: 300px;
+}
+
+#konten{
+width:100%;
+height:350px;
+}
+#konten1{
+width:50%;
+height:300px;
+background-color:grey;
+float:left;
+margin-left:20px;
+margin-top:20px;
+margin-bottom:20px;
+}
+#konten2{
+width: 40%;
+height:300px;
+background-color:grey;
+float:right;
+margin-right:20px;
+margin-top:20px;
+margin-bottom:20px;
+
+}
+#navbar {
+width:100%;
+height:30px;
+background-color: Orange;
+margin-top:60px;
+}
+
+#navbar img{
+width:100%;
+height:70px;
+background-color: Orange;
+}
+
+#team {
+background-color: #fff;
+padding-top:100px;
+padding-bottom:50px;
+}
+#daniel {
+	margin-top: 50px;
+	height: 300px;
+	margin-right:40px;
+	padding-left: 20px;
+}
+
+#foto-daniel {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	float: left;
+	margin-right: 20px;
+}
+
+#isi-daniel {
+	width: 550px;
+	height: 300px;
+	float: left;
+}
+
+#judul-daniel {
+	font-family: 'Anton', sans-serif;
+	color: #f88601;
+	font-size: 50px;
+	margin-top: -20px;
+	font-weight: normal; 
+}
+
+#tina {
+	margin-top: 50px;
+	height: 300px;
+	margin-right:40px;
+	padding-left: 20px;
+}
+
+#foto-tina {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	float: right;
+	margin-right: 20px;
+}
+
+#isi-tina {
+	width: 550px;
+	height: 300px;
+	float: right;
+	margin-right:20px;
+}
+
+#judul-tina {
+	font-family: 'Anton', sans-serif;
+	color: #f88601;
+	font-size: 50px;
+	margin-top: -20px;
+	font-weight: normal; 
+}
+
+#blog {
+	background-color: grey;
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+#bungkus-blog {
+	width: 960px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#subjudul-blog {
+	font-family: Lobster;
+	color: #fff;
+	font-size: 30px;
+}
+
+#judul-blog {
+	font-family: 'Anton', sans-serif;
+	color: #2c3e50;
+	font-size: 80px;
+	margin-top: -20px;
+	margin-bottom: 30px;
+}
+
+#bungkus-semua-blogpost {
+	height: 330px;
+}
+
+/*Post 1*/
+#blogpost1 {
+	width: 310px;
+	height: 330px;
+	background-color: #fff;
+	float: left;
+}
+
+#gambar-blogpost1 {
+	width: 310px;
+	height: 150px;
+	background-color: black;
+}
+
+#bungkus-blogpost1 {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+#kategori-blogpost1 {
+	font-family: Arial;
+	color: #2e3436;
+	font-size: 12px;
+}
+
+#judul-blogpost1 {
+	font-family: Arial;
+	color: #2e3436;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+#ringkasan-blogpost1 {
+	font-family: Arial;
+	color: #888a85;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+#meta-blogpost1 {
+	font-family: Arial;
+	color: #888a85;
+	font-size: 12px;
+	margin-top: 20px;
+	font-weight: bold;
+	text-align: right;
+}
+
+#penulis-blogpost1 {
+	color: #f88601
+}
+
+#tanggal-blogpost1 {
+	margin-left: 10px;
+}
+
+/*Post 2*/
+#blogpost2 {
+	width: 310px;
+	height: 330px;
+	background-color: #fff;
+	float: left;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#gambar-blogpost2 {
+	width: 310px;
+	height: 150px;
+	background-color: black;
+}
+
+#bungkus-blogpost2 {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+#kategori-blogpost2 {
+	font-family: Arial;
+	color: #2e3436;
+	font-size: 12px;
+}
+
+#judul-blogpost2 {
+	font-family: Arial;
+	color: #2e3436;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+#ringkasan-blogpost2 {
+	font-family: Arial;
+	color: #888a85;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+#meta-blogpost2 {
+	font-family: Arial;
+	color: #888a85;
+	font-size: 12px;
+	margin-top: 20px;
+	font-weight: bold;
+	text-align: right;
+}
+
+#penulis-blogpost2 {
+	color: #f88601
+}
+
+#tanggal-blogpost2 {
+	margin-left: 10px;
+}
+
+/*Post 2*/
+#blogpost3 {
+	width: 310px;
+	height: 330px;
+	background-color: #fff;
+	float: left;
+}
+
+#gambar-blogpost3 {
+	width: 310px;
+	height: 150px;
+	background-color: black;
+}
+
+#bungkus-blogpost3 {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+#kategori-blogpost3 {
+	font-family: Arial;
+	color: #2e3436;
+	font-size: 12px;
+}
+
+#judul-blogpost3 {
+	font-family: Arial;
+	color: #2e3436;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+#ringkasan-blogpost3 {
+	font-family: Arial;
+	color: #888a85;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+#meta-blogpost3 {
+	font-family: Arial;
+	color: #888a85;
+	font-size: 12px;
+	margin-top: 20px;
+	font-weight: bold;
+	text-align: right;
+}
+
+#penulis-blogpost3 {
+	color: #f88601
+}
+
+#tanggal-blogpost3 {
+	margin-left: 10px;
+}
+
+#tombol-blog {
+	width: 150px;
+	height: 20px;
+	background-color: #fff;
+	color: #f88601;
+	font-family: Arial;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	margin-top: 20px;
+}
+#footer {
+	background-color: #008080;
+	color: #fff;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	font-family: Arial;
+	font-size: 15px;
+}
+
+#bungkus-footer {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#label-footer {
+	color: #fff;
+}
+
+
+#sosmed-footer {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#facebook {}
+
+#twitter { margin-left: 10px; }
+
+#instagram { margin-left: 10px; }
+
+#linkedin { margin-left: 10px; }
+
+#behance { margin-left: 10px; }
+
+#telp {
+	color: #f88601;
+}
+
+#email-umum {
+	color: #f88601;
+}
+
+#email-penawaran {
+	color: #f88601;
+}
+
+#copyright {
+	margin-top: 10px;
+}
+
